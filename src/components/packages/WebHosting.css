@@ -1,0 +1,94 @@
+:root{
+    --blue:#00C2FF;
+  }
+  .webhosting-container{
+    width: 100%;
+    overflow: hidden;
+
+    /* border: 5px solid red; */
+  }
+  .webhosting-img{
+      position: relative;
+      background: url("../../assets/img/ismail-enes-ayhan-lVZjvw-u9V8-unsplash.jpg");
+      /* filter: brightness(0.7); */
+      height: 380px;
+     width: 100%;
+      background-position: 0 -200px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      /* mix-blend-mode: normal; */
+  }
+  
+  header {
+      /* border: 1px solid red; */
+      background: transparent;
+      z-index: 100;
+  }
+  
+/* front text */
+.webhosting-front-text{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    text-align: right;
+    font-size: 1.5em;
+    line-height: 1.3;
+    color: white;
+  }
+  .webhosting-front-text h1{
+    font-weight: 300;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+  .webhosting > h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* color: rgb(78, 78, 78); */
+    }
+    .webhosting  h2{
+      color: rgb(90, 90, 90);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .webhosting .webhosting-cards{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background-color: rgb(228, 228, 228);
+        /* border: 1px solid red; */
+    }
+    .webhosting-cards .webhosting-card{
+        border: 5px solid #3dd0fe;
+        box-shadow: 0 0 5px rgb(145, 145, 145);
+        border-radius: 10px;
+        padding: 10px 20px;
+        width: 25%;
+        background: rgba(255, 255, 255, 0.781);
+        margin-left: 40px;
+    }
+    .webhosting-card i{
+        font-size: 4em;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    }
+    .webhosting-card h1{
+        text-align: center;
+        margin-bottom: 20px;
+        color: rgb(90, 90, 90);
+    }
+    .webhosting-card ul{
+        list-style-type: none;
+        color: rgb(90, 90, 90);
+        font-weight: bold;
+    }
+    .webhosting-card ul li{
+        margin-bottom: 10px;
+    }
+    .webhosting-card ul li::before{
+        content: '\2713';
+        margin-right: 5px;
+    }

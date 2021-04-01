@@ -1,0 +1,192 @@
+.contactus{
+    /* border: 1px solid black; */
+    margin-bottom: 150px;
+}
+.contactus h1{
+margin-left: 100px;
+padding: 10px;
+color: #6f6f6f;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.contactus .contactus-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.contactus-card .contactus-form{
+    /* border: 1px solid red; */
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+}
+
+.contactus-form form, .contactus-img{
+    width: 50%;
+}
+.contactus-form form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.contactus-form form label{
+    font-size: 2.1em;
+    color: #00c2ff;
+    font-weight: 500;
+}
+.contactus-form form input,
+.contactus-form form textarea{
+    font-size: 2.4em;
+}
+.contactus-form .form-name,
+.contactus-form .form-mail,
+.contactus-form .form-phone,
+.contactus-form .form-message{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 34px;
+}
+.form-name input{
+    border: none;
+    border-bottom: 3px solid #00c2ff;
+    width: 80%;
+    /* size: 100px; */
+    /* margin-left: 100px; */
+    z-index: 100;
+    /* float: right; */
+    margin-right: -1em;
+    outline: none;
+    color: rgb(121, 121, 121);
+}
+.form-mail input{
+    border: none;
+    border-bottom: 3px solid #00c2ff;
+    width: 83%;
+    /* size: 100px; */
+    /* margin-left: 100px; */
+    z-index: 100;
+    /* float: right; */
+    margin-right: -1.5em;
+    outline: none;
+    color: rgb(121, 121, 121);
+}
+.form-phone input{
+    border: none;
+    border-bottom: 3px solid #00c2ff;
+    width: 86%;
+    /* size: 100px; */
+    /* margin-left: 100px; */
+    z-index: 100;
+    /* float: right; */
+    margin-right: -2em;
+    outline: none;
+    color: rgb(121, 121, 121);
+}
+.form-message textarea{
+    border: none;
+    border-bottom: 5px solid #00c2ff;
+    width: 89%;
+    /* size: 100px; */
+    /* margin-left: 100px; */
+    z-index: 100;
+    /* float: right; */
+    margin-right: -2.5em;
+    resize: none;
+    outline: none;
+    color: rgb(121, 121, 121);
+}
+.form-button{
+    position: absolute;
+    bottom: 0;
+    top: 110%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+}
+.form-button button{
+    outline: none;
+    background: #00c2ff;
+    border: none;
+    padding: 10px 60px;
+    color: white;
+    border-radius: 50px;
+    font-size: 2em;
+    transition: 0.2s all ease-in;
+}
+.form-button button:hover{
+    background: #37b0d4;
+    color: white;
+ 
+}
+
+
+.contactus-card .contactus-img{
+    border: 5px solid #00c2ff;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.contactus-img img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:480px){
+    .contactus h1{
+        margin-left: 0;
+    }
+    .contactus-img{
+        display: none;
+    }
+    .contactus-form form{
+        width: 100%;
+    }
+    .contactus-form form label{
+        font-size: 1.5em;
+
+    }
+    .contactus-card .contactus-form{
+        width: 90%;
+    }
+    .contactus-form form input, .contactus-form form textarea {
+        font-size: 1.7em;
+    }
+    .form-name input{
+        width: 70%;
+        /* size: 100px; */
+        /* margin-left: 100px; */
+        /* z-index: 100; */
+        /* float: right; */
+        margin-right: 0;
+    }
+    
+.form-mail input{
+    width: 70%;
+    margin-right: 0;
+    outline: none;
+    color: rgb(121, 121, 121);
+}
+.form-phone input{
+    width: 70%;
+    margin-right: 0;
+}
+.form-message textarea{
+    width: 70%;
+    margin-right: 0;
+}
+.form-button{
+    position: absolute;
+    bottom: 0;
+    top: 110%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+.form-button button{
+ 
+    padding: 10px 30px;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.5em;
+ 
+}
+}

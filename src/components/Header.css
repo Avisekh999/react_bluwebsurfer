@@ -1,0 +1,89 @@
+:root{
+    --blue:#00C2FF;
+  }
+  .container{
+    width: 100%;
+    overflow: hidden;
+    /* border: 5px solid red; */
+  }
+  .bg-img{
+      position: relative;
+      background: url("../assets/img/laptop-image.jpg");
+      background-attachment: fixed;
+      height: 680px;
+     width: 100%;
+      background-position: center;
+      background-size: cover;
+      /* mix-blend-mode: normal; */
+  }
+  
+  header {
+      /* border: 1px solid red; */
+      background: transparent;
+      z-index: 100;
+  }
+  
+/* front text */
+.front-text{
+    position: absolute;
+    top: 80%;
+    width: 40%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: right;
+    font-size: 1.5em;
+    line-height: 1.3;
+    color: white;
+  }
+  .front-text h1{
+    font-weight: 300;
+  }
+  .front-text h1:nth-child(1){
+  color:var(--blue) ;
+  }
+  .header-text{
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    width: 40%;
+    transform: translate(-50%,-50%);
+  }
+  .header-text h1{
+    font-size: 2em;
+    color: white;
+    text-align: right;
+  }
+  .header-text .design{
+    color: rgb(197 21 204);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+  }
+  .header-text .development{
+   color: #f9862d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+  }
+
+  @media (max-width:480px){
+    .bg-img{
+      height: 70vh;
+      background-size: cover;
+      background-attachment: initial;
+background-repeat: no-repeat;
+    }
+    .header-text{
+      width: 90%;
+      top: 55%;
+      font-size: 0.8em;
+      /* border: 1px solid red; */
+      left: 50%;
+      /* background-color: rgba(0, 0, 0, 0.185); */
+    }
+    .front-text{
+      width: 90%;
+      left: 50%;
+      top: 80%;
+      font-size: 1em;
+      background-color: rgba(0, 0, 0, 0.185);
+    }
+  }
