@@ -5,7 +5,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import 'dotenv'
 import { useHistory } from "react-router-dom";
-import Img from '../../assets/img/anete-lusina-zwsHjakE_iI-unsplash.jpg'
+import Img from '../../assets/img/payment.png'
 
 
    // RAZORPAY METHODS

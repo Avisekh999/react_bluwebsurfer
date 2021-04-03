@@ -190,7 +190,7 @@ padding: 10px;
         top: 69%;
     }
     .token-form-img{
-        display: none;
+        /* display: none; */
     }
     .token-form-card{
         flex-direction: column;
