@@ -18,15 +18,15 @@ function ECommerce() {
                 data-aos="fade-left">
                     {/* <i className="fa fa-facebook"></i> */}
                     <h1>Gold Package</h1>
-                    <h2>&#8377; 8999/-</h2>
+                    <h2>&#8377; 10999/-</h2>
                     <ul>
                         <li>1 free domain name</li>
                         <li>5/8 pages (basic website)</li>
-                        <li>Unlimited product listing</li>
+                        <li>Limited product listing</li>
                         <li>Unlimited e-mail Id</li>
-                        <li>Unlimited image & videos</li>
+                        <li>Limited image & videos</li>
                         <li>Unlimited bandwidth</li>
-                        <li>Renewal amount Rs.2899</li>
+                        <li>Renewal amount Rs.3499</li>
                         <li>Socia media integration</li>
                         <li>Live chat integration</li>
                         <li>Payment gateway</li>
@@ -39,7 +39,7 @@ function ECommerce() {
                 data-aos-delay="100">
                     {/* <i className="fa fa-facebook"></i> */}
                     <h1>Platinum</h1>
-                    <h2>&#8377; 14500/-</h2>
+                    <h2>&#8377; 19999/-</h2>
                     <ul>
                     <li>1 free domain name</li>
                     <li>Unlimited pages (dynamic website)</li>
@@ -47,7 +47,7 @@ function ECommerce() {
                     <li>Unlimited email ID</li>
                     <li>Unlimited images and videos</li>
                     <li>Unlimited bandwidth</li>
-                    <li>Renewal amount Rs. 3399</li>
+                    <li>Renewal amount Rs.3999</li>
                     <li>Social media integration</li>
                     <li>Live chat integration</li>
                     <li>Payment Gateway</li>

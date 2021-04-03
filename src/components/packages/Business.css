@@ -56,6 +56,7 @@
     }
     .business .business-cards{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         padding: 20px;
         background-color: rgb(228, 228, 228);
@@ -91,4 +92,12 @@
     .business-card ul li::before{
         content: '\2713';
         margin-right: 5px;
+    }
+
+    @media (max-width:480px){
+        .business-cards .business-card{
+            width: 90%;
+            margin-left: 0;
+            margin-bottom: 40px;
+        }
     }

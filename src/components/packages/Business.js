@@ -17,7 +17,7 @@ function Business() {
                 data-aos="fade-left">
                     {/* <i className="fa fa-facebook"></i> */}
                     <h1>Silver Package</h1>
-                    <h2>&#8377; 5999/-</h2>
+                    <h2>&#8377; 8999/-</h2>
                     <ul>
                     <li>1 free domain name</li>
                     <li>Unlimited pages (basic design)</li>
@@ -30,8 +30,8 @@ function Business() {
                     <li>Renewal amount Rs.2000</li>
                     <li>Social media integration</li>
                     <li>-</li>
-                    <li>30% advance payment</li>
-                    <li>1.5 year free service</li>
+                    <li>40% advance payment</li>
+                    <li>1 year free service</li>
                     <li>-</li>
                     <li>-</li>
                     <li>Note: 18% GST applicable on all purchase</li>
@@ -55,7 +55,7 @@ function Business() {
                         <li>Renewal amount Rs.3500</li>
                         <li>Social media integration</li>
                         <li>Payment Gateway</li>
-                        <li>50% advance payment</li>
+                        <li>40% advance payment</li>
                         <li>2 year free service</li>
                         <li>C-panel and SSL access</li>
                         <li>Live chat integration</li>

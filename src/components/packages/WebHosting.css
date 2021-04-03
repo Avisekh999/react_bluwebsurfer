@@ -56,6 +56,7 @@
     }
     .webhosting .webhosting-cards{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         padding: 20px;
         background-color: rgb(228, 228, 228);
@@ -91,4 +92,15 @@
     .webhosting-card ul li::before{
         content: '\2713';
         margin-right: 5px;
+    }
+
+    @media (max-width:480px){
+        .webhosting-cards .webhosting-card{
+            width: 90%;
+            margin-bottom: 40px;
+            margin-left: 0;
+        }
+        .webhosting-front-text h1{
+            font-size: 1.5em;
+        }
     }

@@ -57,6 +57,7 @@
     .ecommerce .ecommerce-cards{
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         padding: 20px;
         /* border: 1px solid red; */
     }
@@ -89,4 +90,21 @@
     .ecommerce-card ul li::before{
         content: '\2713';
         margin-right: 5px;
+    }
+
+    @media (max-width:480px){
+        .ecommerce-cards .ecommerce-card{
+            width: 90%;
+            margin-left: 0;
+            margin-bottom: 40px;
+        }
+        .ecommerce-front-text{
+            width: 100%;
+        }
+        .ecommerce-front-text h1{
+            font-size: 1.5em;
+            /* width: 100%; */
+            text-align: center;
+        }
+
     }
