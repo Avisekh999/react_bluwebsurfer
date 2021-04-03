@@ -7,24 +7,14 @@ function ContactPage() {
         <div className="contactpage">
              <div className="contact-bg-img contact-container">
         <header>
-            {/* <div className="about-front-text">
-                <h1>Blueweb surfer</h1>
-                <h1>specialized in</h1> 
-                <h1>customize websites.</h1>
-            </div> */}
+            <div className="contact-front-text">
+                <h1>How to find us</h1>
+            </div>
         </header>
         
     </div>
-            <h1>How to find us</h1>
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28513.97149726576!2d88.35085840249226!3d26.704573032773208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e447446ca3cc87%3A0xe78f7395c1fcc50c!2sBlueWeb%20Surfer!5e0!3m2!1sen!2sin!4v1616998349196!5m2!1sen!2sin" 
-                width="95%" 
-                className="map"
-                height="450" 
-                style={{border:0}} 
-                allowfullscreen="" 
-                loading="lazy">  
-            </iframe>
+            {/* <h1>How to find us</h1> */}
+            
             <div className="contact-info">
                 <div className="contact-address">
                     <h1>Address</h1>
@@ -60,6 +50,15 @@ function ContactPage() {
                         </div>
                     </div>
                 </div>
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28513.97149726576!2d88.35085840249226!3d26.704573032773208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e447446ca3cc87%3A0xe78f7395c1fcc50c!2sBlueWeb%20Surfer!5e0!3m2!1sen!2sin!4v1616998349196!5m2!1sen!2sin" 
+                width="95%" 
+                className="map"
+                height="450" 
+                style={{border:0}} 
+                allowfullscreen="" 
+                loading="lazy">  
+            </iframe>
         </div>
     )
 }

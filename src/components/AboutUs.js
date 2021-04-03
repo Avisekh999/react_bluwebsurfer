@@ -9,18 +9,16 @@ function AboutUs() {
         <div className="aboutus">
         <div className="about-bg-img about-container">
         <header>
-            {/* <div className="about-front-text">
-                <h1>Blueweb surfer</h1>
-                <h1>specialized in</h1> 
-                <h1>customize websites.</h1>
-            </div> */}
+            <div className="about-front-text">
+                <h1>About Us</h1>
+            </div>
         </header>
         
     </div>
     <div className="aboutus-content"
     data-aos="fade-up"
     data-aos-deay="100">
-        <h1>About Us</h1>
+        {/* <h1>About Us</h1> */}
         <p>
             In today's increasingly technology market place, it is critical to keep up with the latest innovations
             and solutions, in oreder to make the most  of your investments and keep your business moving forward. 

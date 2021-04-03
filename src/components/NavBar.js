@@ -1,8 +1,9 @@
 import React from 'react'
 import {useState} from 'react'
 import './NavBar.css';
-import CompanyLogo from "../assets/img/BluewebSurferLogo.gif";
+import CompanyLogo from "../assets/img/BluewebSurferLogo.png";
 import {Link} from 'react-router-dom'
+import {Link as Linker} from 'react-scroll'
 
 
 function NavBar() {
@@ -45,6 +46,7 @@ function NavBar() {
                     <div className="dropdown-content">
                         {/* <a href="#">Static Website</a> */}
                         {/* <a href="#">Dynamic Website</a> */}
+                        <Linker to="dynamic" spy={true} smooth={true}>Dynamic Website</Linker>
                         <Link to="/ecommerce">E-commerce Website</Link>
                         <Link to="/business">Business Website</Link>
                         <Link to="/web-hosting">Web Hosting</Link>

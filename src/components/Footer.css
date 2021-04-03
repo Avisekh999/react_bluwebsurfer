@@ -17,6 +17,10 @@
 .footer-row .address{
     width: 30%;
 }
+.footer-row .terms a{
+    text-decoration: none;
+    color: white;
+}
 .footer-row h1{
     font-size: 1.5em;
     margin-bottom: 10px;
@@ -44,29 +48,29 @@
     justify-content: space-between;
     align-items: center;
 }
-.copyrights a{
+.copyrights-cards a{
     text-decoration: none;
     color: white;
 }
-.copyrights a:hover{
+.copyrights-cards a:hover{
     color: #00c2ff;
 }
-.social a{
+.social-media a{
     text-decoration: none;
     color: white;
 }
-.social i{
+.social-media i{
 font-size: 2em;
 transition: 0.2s all ease;
 margin-left: 1.5em;
 }
-.social i.fa-facebook:hover{
+.social-media i.fa-facebook:hover{
     color: #00c2ff;
 }
-.social i.fa-instagram:hover{
+.social-media i.fa-instagram:hover{
     color: #00c2ff;
 }
-.social i.fa-twitter:hover{
+.social-media i.fa-twitter:hover{
     color: #00c2ff;
 }
 
@@ -96,7 +100,8 @@ margin-left: 1.5em;
     width: 100%;
     flex-direction: column;
 }
-.social{
+.social-media{
+    display: block;
     margin-top: 30px;
 }
 }

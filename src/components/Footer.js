@@ -33,7 +33,7 @@ function Footer() {
                 </div>
                 <div className="address"
                 data-aos="fade-right"
-                data-aos-easing="ease">
+                >
                     <h1>Get in touch</h1>
                     <ul>
                         <li>Sardapally(Phansidewa More),Opp. St. Joseph More,</li>
@@ -41,20 +41,20 @@ function Footer() {
                         <li>Dist: Darjeeling, PIN: 734011,W.B</li>
                         <li>Telephone : <a href="tel:+918695510051">+918695510051</a></li>
                         <li>Telephone : <a href="tel:+919733347999">+919733347999</a></li>
-                        <li>Telephone : <a href="mailto:bws@bluewebsurfer.com">bws@bluewebsurfer.com</a></li>
+                        <li>Email : <a href="mailto:bws@bluewebsurfer.com">bws@bluewebsurfer.com</a></li>
                     </ul>
                 </div>
             </div>
             <div className="bottom-footer">
-                <div className="copyrights"
-                data-aos="fade-right">
+                <div className="copyrights-cards"
+                >
                     &copy; <a href="https://www.bluewebsurfer.com">Blueweb Surfer</a>. All rights reserved.
                 </div>
-                <div className="social"
-                data-aos="fade-right">
-                    <a href="https://www.facebook.com"><i className="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com"><i className="fa fa-instagram"></i></a>
-                    <a href="https://www.twitter.com"><i className="fa fa-twitter"></i></a>
+                <div className="social-media"
+                >
+                    <a href="https://www.facebook.com/BlueWeb2021/"><i className="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/blueweb_surfer"><i className="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/bluewebsurfer"><i className="fa fa-twitter"></i></a>
                 </div>
             </div>
         </footer>

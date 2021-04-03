@@ -31,6 +31,7 @@ function ECommerce() {
                         <li>Live chat integration</li>
                         <li>Payment gateway</li>
                         <li>24/7 customer support</li>
+                        <li>Hosting provided separately</li>
                         <li>Note: 18% GST applicable on all purachse</li>
                     </ul>
                 </div>
@@ -52,6 +53,7 @@ function ECommerce() {
                     <li>Live chat integration</li>
                     <li>Payment Gateway</li>
                     <li>24/7 customer support</li>
+                    <li>Hosting provided separately</li>
                     <li>Note: 18% GST applicable on all purchase</li>
                     </ul>
                 </div>

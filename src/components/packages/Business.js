@@ -34,6 +34,7 @@ function Business() {
                     <li>1 year free service</li>
                     <li>-</li>
                     <li>-</li>
+                    <li>Hosting provided separately</li>
                     <li>Note: 18% GST applicable on all purchase</li>
                     </ul>
                 </div>
@@ -42,7 +43,7 @@ function Business() {
                 data-aos-delay="100">
                     {/* <i className="fa fa-facebook"></i> */}
                     <h1>Gold Package</h1>
-                    <h2>&#8377; 11111/-</h2>
+                    <h2>&#8377; 12999/-</h2>
                     <ul>
                         <li>1 free domain name</li>
                         <li>Unlimited pages (basic design)</li>
@@ -59,6 +60,7 @@ function Business() {
                         <li>2 year free service</li>
                         <li>C-panel and SSL access</li>
                         <li>Live chat integration</li>
+                        <li>Hosting provided separately</li>
                         <li>Note: 18% GST applicable on all purchase</li>
                     </ul>
                 </div>

@@ -180,14 +180,16 @@ padding: 10px;
 /* token */
 @media (max-width:480px){
     .token-img{
-        background-size: contain;
+        background-size: cover;
         /* background-position-x: -200px; */
     }
     .token-front-text h1{
         font-size: 1.5em;
+        text-align: center;
     }
     .token-front-text{
         top: 69%;
+        width: 100%;
     }
     .token-form-img{
         /* display: none; */

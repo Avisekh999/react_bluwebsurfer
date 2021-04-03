@@ -90,6 +90,7 @@
     .ecommerce-card ul li::before{
         content: '\2713';
         margin-right: 5px;
+        color:  #3dd0fe;
     }
 
     @media (max-width:480px){

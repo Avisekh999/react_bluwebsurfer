@@ -52,10 +52,6 @@
           margin-bottom: 10px;
       } */
 
-
-
-
-
 .registration{
     /* border: 1px solid red; */
 }
@@ -207,8 +203,6 @@ padding: 10px;
     letter-spacing: 1.5px;
 }
 
-
-
 .registration-form-button{
     position: absolute;
     bottom: 0;
@@ -230,4 +224,31 @@ padding: 10px;
     background: #37b0d4;
     color: white;
  
+}
+
+@media (max-width:480px) {
+    .registration-front-text{
+        font-size: 1.3em;
+    }
+    .registration-form-card{
+        flex-direction: column-reverse;
+        padding-bottom: 100px;
+    }
+    .registration-form-card .registration-form-form{
+        width: 100%;
+    }
+    .registration-form-form form label{
+        font-size: 1.2em;
+    }
+    .registration-form-form form input, .registration-form-form form textarea, .registration-form-form form select{
+        font-size: 1.2em;
+    }
+    .registration-form-button{
+        top: 110%;
+        left: 50%;
+    }
+    .registration-form-button button{
+        font-size: 1.2em;
+        padding: 10px 30px;
+    }
 }
