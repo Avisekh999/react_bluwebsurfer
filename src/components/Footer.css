@@ -2,7 +2,8 @@
     color: white;
     background-color: #5a5a5a;
     padding: 20px;
- overflow: hidden;   
+ overflow: hidden; 
+ font-family: 'Quicksand', sans-serif;
 }
 .footer-row{
     width: 90%;
@@ -30,6 +31,11 @@
     list-style-type: none;
     line-height: 1.8em;
     font-size: 1em;
+}
+
+.footer-row img{
+    width: 250px;
+    height: 250px
 }
 .address a{
     text-decoration: none;

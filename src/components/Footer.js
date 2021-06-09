@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
+import msme from '../assets/img/MSME.png'
 
 function Footer() {
     return (
@@ -13,8 +14,11 @@ function Footer() {
                     <ul>
                         <li>Privacy Policy</li>
                         <li>Refund Poicy</li>
-                        <Link to="/login"><li>Login</li></Link>    
+                        <Link to="/login"><li>Login</li></Link> 
+                        <li>GST Number: 19AAXFB5868Q1Z2</li>   
+                        
                     </ul>
+                    <img src={msme} />
                 </div>
                 <div className="proof"
                 data-aos="fade-right"

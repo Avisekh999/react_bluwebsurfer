@@ -54,7 +54,7 @@ function NavBar() {
                     </div>    
                 </li>
                 <li><a href="#">Demo</a></li>
-                <li><Link to="/contact-us">Contact Us</Link></li>
+                <li><Link to="/contact-us">Reseller</Link></li>
                 <li><Link to="/register">Register</Link></li>
                 <li><Link to="/token">Token</Link></li>
                

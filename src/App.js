@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import ContactPage from './components/ContactPage';
 import { useEffect } from 'react'
-
+import Admin from './components/Admin'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import ECommerce from './components/packages/ECommerce';
@@ -34,6 +34,7 @@ function App() {
         <Route path="/token" component={Token} />
         <Route path="/register" component={Registration} />
         <Route path="/login" component={Login} />
+        <Route path="/admin" component={Admin} />
 
       </Switch>
       <Footer />

@@ -1,14 +1,50 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './ContactPage.css'
-import Contactus from './Contactus'
+import axios from 'axios'
 
 function ContactPage() {
+
+
+    const url="http://localhost:5000/api/contact"
+    const [data, setData] = useState({
+        name: "",
+        email:"",
+        mobileNumber:"",
+        message:""
+
+    })
+
+    function submit(e){
+        e.preventDefault(); 
+        axios.post(url,{
+            name: data.name,
+            email:data.email,
+            mobileNumber:data.mobileNumber,
+            message:data.message
+            
+        })
+        .then(res => {
+            console.log(res.data)
+        })
+    }
+
+    function handle(e){
+        const newData = {...data}
+        newData[e.target.id] = e.target.value
+        setData(newData)
+        console.log(newData)
+         
+    }
+   
+   
+    
+
     return (
         <div className="contactpage">
              <div className="contact-bg-img contact-container">
         <header>
             <div className="contact-front-text">
-                <h1>How to find us</h1>
+                <h1>Reseller Services</h1>
             </div>
         </header>
         
@@ -25,22 +61,22 @@ function ContactPage() {
                     </ul>
                 </div>
                 <div className="contact-form">
-                        <h1>Contact Us</h1>
+                        <h1>Enquiry For Reseller Services</h1>
                         <div className="contact-form-card">
                             <div className="contact-form-form">
-                                <form action={""}>
+                                <form action={""} onSubmit={(e)=> submit(e)}>
                                     <div className="contact-form-name">
-                                        <label>Name</label><input type="text" name="name" placeholder="Your name" />
+                                        <label>Name</label><input type="text" id="name" onChange={(e)=>handle(e)} value={data.name} placeholder="Your name" />
                                     </div>
                                     <div className="contact-form-mail">
-                                        <label>Email</label> <input type="email" name="email" placeholder="Your email" />
+                                        <label>Email</label> <input type="email" id="email" onChange={(e)=>handle(e)} value={data.email} placeholder="Your email" />
                                     </div>
                                     <div className="contact-form-phone">
-                                        <label>Phone</label> <input type="number" name="phone" placeholder="Phone" />
+                                        <label>Phone</label> <input type="number" id="mobileNumber" onChange={(e)=>handle(e)} value={data.mobileNumber} placeholder="Phone" />
                                     </div>  
                                     <div className="contact-form-message">
                                         <label>Message</label> 
-                                        <textarea type="number" name="phone" placeholder="Your message..."></textarea>
+                                        <textarea type="text" id="message" onChange={(e)=>handle(e)} value={data.message} placeholder="Your message..."></textarea>
                                     </div>
                                     <div className="contact-form-button">
                                         <button type="submit">Submit</button>
